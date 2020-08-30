@@ -34,7 +34,7 @@ The initial process can take a long time - come prepared with a good book while 
 
   - Install the game and all applicable DLC (all official DLC + multiplayer DLC recommended)
   - Download the modding tools (Mod Manager + ALOT)
-  - Start up Mod Explorer, and do a game backup
+  - Start up Mod Manager, and do a game backup
   - Download the content mods you wish to use, into a content mods folder (when available, I recommend using the torrents)
   - Download ALOT into a separate folder, and use it to choose all the texture packs you wish to use
 
@@ -48,7 +48,7 @@ Mods must be installed in this exact order:
 
   - Install content mods via ME3Tweaks Mods manager (see individual mod guides below)
   - Install texture mods via ALOT installer
-  - In the mod manager, go to Tools > Binkw32 bypasses (aka DLC patcher), and enable them
+  - In the mod manager, go to `Tools` > `Binkw32 bypasses` (aka DLC patcher), and enable them
   - Play
   
 #### Problems & starting over
@@ -277,3 +277,22 @@ Now you can execute the commands of that file by pressing numpad 7.
 NOTE: Did not work in my tests.
 
 
+### Lexicon / Dictionary
+
+  - `ALOT`: Specialized mod manager for texture packs.
+  - `Auto-TOCing`: Using an automated tool to update a TOC file (see TOC).
+  - `BO`: The "Back Off" mod, which extends romance possibilities.
+  - `Binkw32 bypasses`: DLL fix to allow modded videos.
+  - `Character code`: Code that can be pasted into the character creator to reproduce specific settings.
+  - `Coalesced.bin`: Settings file, for both the game itself or DLCs.
+  - `CookedPCConsole`: Subfolder of the game in which all assets are stored (textures, videos, sound, etc).
+  - `DLC Patcher`: See Binkw32 bypasses.
+  - `EGM`: Expanded Galaxy Mod, one of the most popular ME3 mods.
+  - `Gibbed's editor`: Save game editor by Gibbed.
+  - `Headmorph`: File containing a custom 3D structure for a character's head.
+  - `ME3Explorer`: Modder tool to view and modify game assets.
+  - `ME3Tweaks`: The Mass Effect 3 mod manager, aka ME3Tweaks Mod Manager.
+  - `ME3`: Mass Effect 3.
+  - `MEHEM`: The "Mass Effect 3 Happy Ending Mod", a popular mod that modifies the game's ending.
+  - `TOC`: "Table Of Contents" files containing lists of files the game needs to load assets.
+  - `TOCing`: The action of updating a TOC file.  
