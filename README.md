@@ -86,6 +86,7 @@ To get the most out of this combination of mods, there is an optimal order to wh
   - _Leviathan_: after _Priority: Rannoch_
   - _Omega_: after _Priority: Citadel II_
   - _Citadel_: after _Priority: Rannoch_
+  - _Operation: Paladin_: after _Citadel_
 
 Install in the order shown here.
 
@@ -142,7 +143,9 @@ https://www.nexusmods.com/masseffect3/mods/610
 
   - Use the Mod Manager.
   
-#### N7 Armour Mod 
+#### N7 Armour Mod - DISABLED
+
+**EDIT:** I disabled this, as I had crashes with it. Also, some of the armors had hair clipping issues. Sometimes the hair would pop out of the hoodie. The Expanded galaxy mod already has a nice selection of armors.
 
 https://www.nexusmods.com/masseffect3/mods/431
 
