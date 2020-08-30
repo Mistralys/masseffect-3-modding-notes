@@ -80,7 +80,14 @@ Disregard ALOT's warning on missing texture packs when installing if you chose d
 
 This assumes all official DLCs are installed, and all Mods in this list are installed. 
 
-NOTE: Install in the order shown here.
+To get the most out of this combination of mods, there is an optimal order to when you should run some missions:
+
+  - _From Ashes_: after _Priority: Menae_
+  - _Leviathan_: after _Priority: Rannoch_
+  - _Omega_: after _Priority: Citadel II_
+  - _Citadel_: after _Priority: Rannoch_
+
+Install in the order shown here.
 
 #### MEHEM (aka ME3 Happy Ending Mod)
 
@@ -189,9 +196,9 @@ To start editing the appearance:
 
 #### Eyes
 
-Iris color: `EYE_Iris_Colour_Vector`
-Eye shadow color: `HED_EyeShadow_Tint_Vector`
-Eyelid shadow: `HED_Brow_Tint_Vector`
+  - Iris color: `EYE_Iris_Colour_Vector`
+  - Eye shadow color: `HED_EyeShadow_Tint_Vector`
+  - Eyelid shadow: `HED_Brow_Tint_Vector`
 
 #### Hair
 
