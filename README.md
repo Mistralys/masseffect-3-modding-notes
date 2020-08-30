@@ -155,25 +155,25 @@ This is a list of hair styles I used from the popular [Hair Mods as DLCs](https:
 
 #### Vanilla character codes
 
-These codes can be used without any additional textures or headmorphs. They are some I collected online from various sources.
+These codes can be used without any additional textures or headmorphs. They are some I collected online from various sources (femshep codes exclusively).
 
-  - Rene - 741.1EH.C14.P8Q.F7C.7HE.N6K.6G1.DE5.8R7.2G6.415
-  - Alexis - 743.1AJ.E67.K8C.G76.15E.NIA.8G7.R95.8P7.6G6.475
-  - Nonducklips - 753.QBG.F17.F1K.FDE.1HL.1FD.411.IK6.519.6G5.525
-  - Clare - 141.F1D.G17.F21.FBI.19W.15E.711.KE6.4I7.626.316
-  - Mia - 733.1AL.L41.W1R.HL7.75J.3WF.111.P16.115.BG5.311
-  - Arastia - 733.1FI.G81.M19.UEH.87Q.7LI.511.M86.1A7.4G5.555
-  - Renegade - 143.BBC.K41.G1H.RB1.B4L.JJJ.111.ND6.6F3.B2B.875
-  - Unnamed 1 - 743.1GL.F12.861.EGE.17F.3IA.121.C96.193.6G5.576
-  - Unnamed 2 - 741.1EH.C12.W8Q.F7C.7HE.N6K.6G1.DE5.8R7.6G6.426
+  - Rene - `741.1EH.C14.P8Q.F7C.7HE.N6K.6G1.DE5.8R7.2G6.415`
+  - Alexis - `743.1AJ.E67.K8C.G76.15E.NIA.8G7.R95.8P7.6G6.475`
+  - Nonducklips - `753.QBG.F17.F1K.FDE.1HL.1FD.411.IK6.519.6G5.525`
+  - Clare - `141.F1D.G17.F21.FBI.19W.15E.711.KE6.4I7.626.316`
+  - Mia - `733.1AL.L41.W1R.HL7.75J.3WF.111.P16.115.BG5.311`
+  - Arastia - `733.1FI.G81.M19.UEH.87Q.7LI.511.M86.1A7.4G5.555`
+  - Renegade - `143.BBC.K41.G1H.RB1.B4L.JJJ.111.ND6.6F3.B2B.875`
+  - Unnamed 1 - `743.1GL.F12.861.EGE.17F.3IA.121.C96.193.6G5.576`
+  - Unnamed 2 - `741.1EH.C12.W8Q.F7C.7HE.N6K.6G1.DE5.8R7.6G6.426`
 
 #### Using headmorphs
 
 Headmorphs are files that contain a detailed 3D structure for the character's head. They can be installed into a savegame file using Gibbed's save editor. 
 
 1. Start the save editor & open your save game file.
-2. Go to the tab called "Appearance" > "Head Morph" > "Import from File".
-3. Select the target .headmorph file.
+2. Go to the tab called `Appearance` > `Head Morph` > `Import from File`.
+3. Select the target `.headmorph` file.
 5. Click "Save", overwrite or create new file.
 
 ### Advanced appearance customization
