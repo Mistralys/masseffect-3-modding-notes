@@ -2,11 +2,11 @@
 
 Collected notes on modding Mass Effect 3.
 
-### Overview
+## Overview
 
 The basic pinciple is copying mod files into the game's `CookedPCConsole` folder, which contains the final files that the game uses. While this may sound simple, a lot of care has to be taken when doing this, because Mass Effect 3 was not designed to be moddable.
 
-### Mod installers and tools
+## Mod installers and tools
 
   - [ME3Tweaks Mods manager](https://www.nexusmods.com/masseffect3/mods/373)* (Content mod installer)
   - [ALOT installer](https://www.nexusmods.com/masseffect3/mods/363)* (Texture pack installer)
@@ -15,7 +15,7 @@ The basic pinciple is copying mod files into the game's `CookedPCConsole` folder
 
 *: required
 
-### Mod types and formats
+## Mod types and formats
 
 Mods can generally be split into two categories:
 
@@ -24,11 +24,11 @@ Mods can generally be split into two categories:
 
 Some mods come as loose files that have to be copied into the game folders, and others come as DLCs. DLCs are simply loose files bundled together, which makes them easier to install.
 
-### Installing mods
+## Installing mods
 
 Modding Mass Effect games can be considered a **one-time process**. Once the texture mods have been installed via ALOT, there is no going back to modify something, or add additional mods. The only way is to **start over entirely**, using a previous backup of the vanilla game (which can be done with the mods manager).
 
-#### Prerequisites
+### Prerequisites
 
 The initial process can take a long time - come prepared with a good book while you wait :)
 
@@ -38,11 +38,11 @@ The initial process can take a long time - come prepared with a good book while 
   - Download the content mods you wish to use, into a content mods folder (when available, I recommend using the torrents)
   - Download ALOT into a separate folder, and use it to choose all the texture packs you wish to use
 
-#### RTFM. No kidding!
+### RTFM. No kidding!
 
 Modding Mass Effect is special in that it's not drag and drop modding like most games these days. If a mod author says to read the docs, it means you **really, really should**. Not following the instructions precisely can just as easily break the game, which can happen anytime in a playthrough.
 
-#### Installing
+### Install order
 
 Mods must be installed in this exact order:
 
@@ -51,7 +51,7 @@ Mods must be installed in this exact order:
   - In the mod manager, go to `Tools` > `Binkw32 bypasses` (aka DLC patcher), and enable them
   - Play
   
-#### Problems & starting over
+### Problems & starting over
 
 To start over, use the Mod Manager's restore backup feature: it will revert the game to its vanilla state. After this, repeat the installation process again, with any changes you believe necessary.
 
@@ -61,12 +61,112 @@ The game runs on the Unreal engine, which uses index files that contain a "Table
 
 NOTE: Auto-TOCing can be done anytime, it is a non-breaking operation. In general, you do not need to do this manually, since both the Mod Manager and ALOT have an Auto-TOC feature that is applied whenever necessary.
 
-### ALOT installation guide
+## Mods installation guide
 
-  - Download all the texture packs listed in ALOT you wish to install
-  - Download additional packs to a separate folder
-  - When ready, drag & drop all additional packs into the ALOT window
-  - Install
+This assumes all official DLCs are installed, including the collector's edition and multiplayer addons, and that all mods in this list are used.
+
+I tested this exact configuration, and made one successful playthrough with it.
+
+Install in the order shown here.
+
+### MEHEM (aka ME3 Happy Ending Mod)
+
+Modifies the ending to make it happier than the existing ending.
+
+https://www.nexusmods.com/masseffect3/mods/66
+
+  - Use the installer.
+
+NOTE: Disregard the warnings in the installer (it says so in the wiki).
+  
+### Expanded Galaxy Mod
+
+Adds a lot of content and improvements. The definitive must-have.
+
+https://www.nexusmods.com/masseffect3/mods/350
+
+  - Use the Mod Manager.
+  - In the mod settings window, choose  the following:
+      - `Mod settings` > `Quick Play Mode` > `ON`.
+      - `Normandy` > `Cabin Invite Music` > `Cabin Music Player`.
+      - `Normandy` > `Map Reapers` > `No Reapers`.
+      - `Armors/Outfits` > Customize as you see fit.
+  - Click `Finish`.
+  
+### Ark Mod
+
+Adds some missions.
+
+https://www.nexusmods.com/masseffect3/mods/678
+
+  - Use the Mod Manager.
+
+### Spectre Expansion
+
+Extends the spectre terminal.
+
+https://www.nexusmods.com/masseffect3/mods/634
+
+  - Use the Mod Manager.
+
+### ME3 Recalibrated
+
+General fixes and improvements.
+
+https://www.nexusmods.com/masseffect3/mods/411
+
+  - Install v2.0 via the Mod Manager.
+  - Open the v2.1 update ZIP.
+      - Copy the contents to `DLC/DLC_MOD_ME3RE/CookedPCConsole`.
+
+### BackOff
+
+Improves romance aspects.
+
+https://www.nexusmods.com/masseffect3/mods/412
+
+  - Install the v1.0 via the Mod Manager.
+  - Install the v1.0 BOPatches via the Mod Manager.
+  - Open the v1.2 Update ZIP.
+      - Copy contents of `BackOff` to `DLC/DLC_CON_BACKOFF/CookedPCConsole`.
+      - Copy contents of `BOPatches/BW_LevDLC` to `DLC/DLC_CON_BOPATCHES/CookedPCConsole`.
+      - Copy contents of `BOPatches/ME3Re_v2.0` to `DLC/DLC_CON_BOPATCHES/CookedPCConsole`.
+
+### Tali romance mod
+
+Install only when playing with a male Shepard. Also, must have romanced Tali in ME2.
+
+https://www.nexusmods.com/masseffect3/mods/610
+
+  - Use the Mod Manager.
+  
+### N7 Armour Mod [DISABLED]
+
+**EDIT:** Disabled this, as it seemed to cause crashes. Also, some of the armors had hair clipping issues. Sometimes the hair would pop out of the hoodie. 
+
+https://www.nexusmods.com/masseffect3/mods/431
+
+  - Use the mod manager.
+
+### Hair Mods as DLCs
+
+https://www.nexusmods.com/masseffect3/mods/425
+
+Note: It is best to choose the hair styles you want beforehand, because each style has to be activated separately in the Mod Manager. They are numbered, so the best is to make a list like this:
+
+  - Abehce: 1, 4, 5
+  - CS (aka Counting Stars): 1, 3, 4, 7
+  - ELE: 1, 5, 6
+  - Kani: 2, 3, 4, 5, 7, 8, 11
+  - NIL (aka NameIsLooney): 3, 4, 6, 7, 13, 18, 20
+     
+### ALOT installation
+
+  - Download all the texture packs listed in ALOT that you wish to install.
+  - Download additional packs to a separate folder.
+  - When ready, drag & drop all additional packs into the ALOT window.
+  - Start the install.
+  - After preparation, confirm the installation.
 
 #### Different variations of officially listed packs
 
@@ -76,9 +176,11 @@ NOTE: Renaming the file you downloaded to match ALOT's filename will not work, a
 
 Disregard ALOT's warning on missing texture packs when installing if you chose different variations.
 
-### Main mod installation guides
+### Ready to play
 
-This assumes all official DLCs are installed, and all Mods in this list are installed. 
+After these steps, the game is ready to play.
+
+### Mission timings
 
 To get the most out of this combination of mods, there is an optimal order to when you should run some missions:
 
@@ -88,82 +190,11 @@ To get the most out of this combination of mods, there is an optimal order to wh
   - _Citadel_: after _Priority: Rannoch_
   - _Operation: Paladin_: after _Citadel_
 
-Install in the order shown here.
+This can be customized in the Expanded Galaxy Mod settings.
 
-#### MEHEM (aka ME3 Happy Ending Mod)
+## Customizing character appearance
 
-https://www.nexusmods.com/masseffect3/mods/66
-
-  - Use the installer
-
-NOTE: Disregard warnings in the installer - as it says in the wiki if you go there.
-  
-#### Expanded Galaxy Mod
-
-https://www.nexusmods.com/masseffect3/mods/350
-
-  - Use the Mod Manager.
-  - Use default settings.
-  - In the mod settings window, simply click finish. Settings are okay on default.
-  
-#### Ark Mod
-
-https://www.nexusmods.com/masseffect3/mods/678
-
-  - Use the Mod Manager.
-
-#### Spectre Expansion
-
-https://www.nexusmods.com/masseffect3/mods/634
-
-  - Use the Mod Manager.
-
-#### BackOff
-
-https://www.nexusmods.com/masseffect3/mods/412
-
-  - Install the v1.0 via the Mod Manager
-  - Install the v1.0 BOPatches via the Mod Manager
-  - Open the v1.2 Update ZIP
-      - Copy contents of `BackOff` to `DLC/DLC_CON_BACKOFF/CookedPCConsole`
-      - Copy contents of `BOPatches/BW_LevDLC` to `DLC/DLC_CON_BOPATCHES/CookedPCConsole`
-      - Copy contents of `BOPatches/ME3Re_v2.0` to `DLC/DLC_CON_BOPATCHES/CookedPCConsole`
-
-#### ME3 Recalibrated
-
-https://www.nexusmods.com/masseffect3/mods/411
-
-  - Install v2.0 via the Mod Manager.
-  - Open the v2.1 update ZIP
-      - Copy the contents to `DLC/DLC_MOD_ME3RE/CookedPCConsole`
-      
-#### Tali romance mod
-
-https://www.nexusmods.com/masseffect3/mods/610
-
-  - Use the Mod Manager.
-  
-#### N7 Armour Mod - DISABLED
-
-**EDIT:** I disabled this, as I had crashes with it. Also, some of the armors had hair clipping issues. Sometimes the hair would pop out of the hoodie. The Expanded galaxy mod already has a nice selection of armors.
-
-https://www.nexusmods.com/masseffect3/mods/431
-
-  - Use the mod manager.
-
-#### Hair Mods
-
-This is a list of hair styles I used from the popular [Hair Mods as DLCs](https://www.nexusmods.com/masseffect3/mods/425) mod. It is best to choose the ones you want beforehand, because each hair style has to be activated separately in the Mod Manager. They are numbered, so the best is to make a list like this.
-
-  - Abehce: 1, 4, 5
-  - CS (aka Counting Stars): 1, 3, 4, 7
-  - ELE: 1, 5, 6
-  - Kani: 2, 3, 4, 5, 7, 8, 11
-  - NIL (aka NameIsLooney): 3, 4, 6, 7, 13, 18, 20
-     
-### Customizing character appearance
-
-#### Vanilla character codes
+### Vanilla character codes
 
 These codes can be used without any additional textures or headmorphs. They are some I collected online from various sources (femshep codes exclusively).
 
@@ -177,7 +208,7 @@ These codes can be used without any additional textures or headmorphs. They are 
   - Unnamed 1 - `743.1GL.F12.861.EGE.17F.3IA.121.C96.193.6G5.576`
   - Unnamed 2 - `741.1EH.C12.W8Q.F7C.7HE.N6K.6G1.DE5.8R7.6G6.426`
 
-#### Using headmorphs
+### Using headmorphs
 
 Headmorphs are files that contain a detailed 3D structure for the character's head. They can be installed into a savegame file using Gibbed's save editor. 
 
@@ -186,24 +217,22 @@ Headmorphs are files that contain a detailed 3D structure for the character's he
 3. Select the target `.headmorph` file.
 5. Click "Save", overwrite or create new file.
 
-### Advanced appearance customization
+## Advanced appearance customization
 
 The colors and textures for the character's head are defined in the savegames. Using Gibbed's save game editor, values can be changed directly. This allows much more customization possibilities as the ingame editor, as many settings are not accessible in the ingame editor.
 
 To start editing the appearance:
 
-1. Open a savegame with Gibbed's save editor
-2. Navigate to`Squad` > `Player` > `Appearance` > `Head Morph` > `Texture Parameters`
+1. Open a savegame with Gibbed's save editor.
+2. Navigate to`Squad` > `Player` > `Appearance` > `Head Morph` > `Texture Parameters`.
 
-#### Colors
-
-#### Eyes
+### Eyes
 
   - Iris color: `EYE_Iris_Colour_Vector`
   - Eye shadow color: `HED_EyeShadow_Tint_Vector`
   - Eyelid shadow: `HED_Brow_Tint_Vector`
 
-#### Hair
+### Hair
 
 Eyebrow color: `HED_Addn_Colour_Vector`
 
@@ -218,7 +247,7 @@ Scalar Parameters
   - Highlight intensity 1: `Hightlight1Intensity`
   - Highlight intensity 2: `Hightlight2Intensity`
 
-#### Lips
+### Lips
 
 Texture Parameters
   - Lip color: `HED_Lips_Tint_Vector`
@@ -229,7 +258,7 @@ Scalar Parameters
 
 Note: if nothing is selected in the texture parameters, lip intensity is for the default lip color.
 
-#### Blush
+### Blush
 
 Texture Parameters 
   - Blush color: `HED_Blush_Vector`
@@ -237,15 +266,15 @@ Texture Parameters
 Scalar Parameters
   - Blush intensity: `HED_Blush_Scalar` 
 
-### Cheats
+## Cheats
 
-#### Changing game settings
+### Changing game settings
 
 Many cheats are available by editing the game's main `Coalesced.bin` file, which contains a bundle of INI files that control many aspects of the game. There is an exhaustive list here:
 
 https://gaming.stackexchange.com/questions/54867/how-can-i-edit-coalesced-bin-so-that-i-can-use-cheats-and-graphics-tweaks
 
-#### Reaper alertness and scan range tweaks
+### Reaper alertness and scan range tweaks
 
 Open the console (default=TAB), and enter the following command:
 
@@ -263,7 +292,9 @@ This executes a list of commands (several commands can be separated with pipes, 
   
 These settings are reset after each mission - simply run the command again.
 
-#### Creating executable batch / script files
+NOTE: It is also possible to turn off the Reapers in systems in the Extended Galaxy Mod settings.
+
+### Creating executable batch / script files
 
 Console commands can be assigned to a hotkey. For this, the key bindings must be modified manually using the game's `Coalesced.ini` file.
 
@@ -276,8 +307,11 @@ Now you can execute the commands of that file by pressing numpad 7.
 
 NOTE: Did not work in my tests.
 
+## Persuading the Illusive Man
 
-### Lexicon / Dictionary
+To enable the persuasion options at the end, it is necessary to have a high enough total Paragon + Renegade points (any combination thereof), as well as pass all three persuasion options with the Illusive Man on Mars, Thessia and the Cerberus HQ.
+
+## Lexicon / Dictionary
 
   - `ALOT`: Specialized mod manager for texture packs.
   - `Auto-TOCing`: Using an automated tool to update a TOC file (see TOC).
