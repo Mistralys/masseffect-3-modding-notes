@@ -1,6 +1,6 @@
 # Mass Effect 3 Modding Notes
 
-Collected notes on modding Mass Effect 3.
+Collected notes on modding Mass Effect 3, as well as some helpful playing tips.
 
 ## Overview
 
@@ -307,7 +307,59 @@ Now you can execute the commands of that file by pressing numpad 7.
 
 NOTE: Did not work in my tests.
 
-## Persuading the Illusive Man
+## Tips & Tricks for a playthrough
+
+### Romance
+
+#### Male Shepard
+
+1. Miranda Lawson - Req: Locked: After meeting in safehouse
+2. Tali'Zorah vas Normandy - Req: Invite her up after meeting Quarians. Locked: On the Presidium
+3. Jack - Req: Meet at Grissom Academy. Locked: Meeting at Purgatory (after Citadel II)
+4. Ashley Williams - Req: After waking at hospital. Locked: At Apollo Cafe in Presidium
+5. Steve Cortez - Req: Convince to take shore leave. Locked: Kissing him at Purgatory
+
+#### Female Shepard
+
+1. Thane Krios - Req: Meet at hospital. Locked: Having 'private time' at hospital
+2. Samantha Traynor - Req: Unromanced. Locked: After joining her in the shower
+3. Garrus Vakarian - Req: Speaking to him after recruiting. Locked: Saying you love him while on date
+4. Javik - Req: Unromanced. Locked: Automatic if unromanced by the end of Citadel party
+5. James Vega - Req: Unromanced. Locked: Flirt with during Citadel invite and during party
+
+#### Either
+
+1. Kaiden Alenko - Req: After waking at hospital. Locked: At Apollo Cafe in Presidium
+2. Kelly Chambers - Req: Unromanced. Locked: After Citadel 2, mention she is the only one when questioned.
+3. Liara T'Soni - Req: After Mars mission. Locked: At the Presidium, leaning on rail 
+4. Diana Allers - Req: Unromanced. Locked: Immediatedly after Rannoch interview
+5. Samara - Req: Unromanced. Locked: Citadel DLC invite to apartment
+
+#### Order of lock-ins 
+
+Lock-ins happen after the Citadel chapter plus number of mission completions (e.g. CT2 + 1 = Citadel II plus one mission).
+
+  - Thane (CT1)
+  - Steve (CT2)
+  - Jack (CT2)
+  - Samantha(CT2)
+  - Tali (CT2)
+  - Garrus (CT2+1)
+  - Kaiden (CT2+1)
+  - Liara (CT2+1)
+  - Kelly (CT2+2)
+  - Miranda (CT2+2)
+  - Allers (CT3)
+  - Ashley (CT3)  
+
+#### Most romances in a playthrough
+
+1. Romance Liara, Kaiden, or Ashley in ME1.
+2. Romance Samara and Kelly in ME2 (and Liara in LotSB if romanced in ME1).
+3. Rekindle relationship with ME1 LI in ME3, but do not lock-in.
+4. Romance Kelly, romance Allers, romance Samara (Citadel DLC), and finally the ME1 LI.
+
+### Persuading the Illusive Man
 
 To enable the persuasion options at the end, it is necessary to have a high enough total Paragon + Renegade points (any combination thereof), as well as pass all three persuasion options with the Illusive Man on Mars, Thessia and the Cerberus HQ.
 
@@ -324,6 +376,7 @@ To enable the persuasion options at the end, it is necessary to have a high enou
   - `EGM`: Expanded Galaxy Mod, one of the most popular ME3 mods.
   - `Gibbed's editor`: Save game editor by Gibbed.
   - `Headmorph`: File containing a custom 3D structure for a character's head.
+  - `Lock-In`: Committing to a specific love interest.
   - `ME3Explorer`: Modder tool to view and modify game assets.
   - `ME3Tweaks`: The Mass Effect 3 mod manager, aka ME3Tweaks Mod Manager.
   - `ME3`: Mass Effect 3.
